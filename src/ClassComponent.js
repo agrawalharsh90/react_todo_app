@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './google-assistant.png'
 import './App.css';
 
-class App extends React.Component {
+class ClassComponent extends React.Component {
 
     constructor(props) {
         super(props);
@@ -98,4 +98,4 @@ class App extends React.Component {
     }
 }
 
-export default App;
+export default ClassComponent;
