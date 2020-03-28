@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import ClassComponent from './ClassComponent';
 import * as serviceWorker from './serviceWorker';
+import FunctionalComponent from "./FunctionalComponent";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <ClassComponent />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <React.StrictMode>
+        <FunctionalComponent/>
+    </React.StrictMode>,
+    document.getElementById('root')
 );
 
 // If you want your app to work offline and load faster, you can change
